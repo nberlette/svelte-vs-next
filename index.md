@@ -1,8 +1,10 @@
-# [SvelteKit][sveltekit-url] vs. [Next.js][next-url]
+# SvelteKit vs. Next.js
 
-Comparison of major features between [SvelteKit][sveltekit-url] (by [Svelte][svelte-url]) and [Next.js][next-url] (by [Vercel][vercel-url]).
+## Comparison of Major Features
 
-Goals: fast, easy, convention over configuration, & batteries included. Overwhelming choices are bad versus providing a clear path forward.
+**Contenders**: [SvelteKit][sveltekit-url] (by [Svelte][svelte-url]) and [Next.js][next-url] (by [Vercel][vercel-url]).
+
+**Objectives**: fast, easy, convention over configuration, & batteries included. Overwhelming choices are bad versus providing a clear path forward.
 
 |                            Feature/Category |                              SvelteKit | Next.js                       |  Winner   | More Information                                                                                                                                                                             |
 | ------------------------------------------: | -------------------------------------: | :---------------------------- | :-------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -38,9 +40,12 @@ Goals: fast, easy, convention over configuration, & batteries included. Overwhel
 |     [Tailwind CSS][tailwind-url] compatible |                                     🟢 | 🟢                             |    --     | Easy via [svelte-add-tailwindcss][svelte-add-tailwind-url]. Next.js requires more steps, but [RFC][next-rfc-url] for `npx init tailwind`                                                     |
 |       [Headless UI][headless-url] available |                                     🛑 | 🚧  WIP                        |  Next.js  | Un-styled UI components (dropdown, slider, toggle, etc) from Tailwind creators.                                                                                                              |
 |                               Documentation |                                     🔟 | 🔟                             |    --     |                                                                                                                                                                                              |
-
+---
 🟡  = partial solution available
 🚧  = WIP/development/RFC
+
+---
+> MIT 2021 © [Nicholas Berlette](https://github.com/nberlette). Forked from [jasongitmail's original](https://github.com/jasongitmail/svelte-vs-next).
 
 [svelte-url]: https://svelte.dev
 [svelteauth-url]: https://github.com/sveltejs/kit/tree/master/examples/realworld.svelte.dev/src/routes/auth

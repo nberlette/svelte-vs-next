@@ -1,10 +1,13 @@
 # SvelteKit vs. Next.js
 
+**Objectives**: fast, easy, convention over configuration, & batteries included. Overwhelming choices are bad versus providing a clear path forward.
+
 ## Comparison of Major Features
 
-**Contenders**: [SvelteKit][sveltekit-url] (by [Svelte][svelte-url]) and [Next.js][next-url] (by [Vercel][vercel-url]).
+**Contenders**: [SvelteKit][sveltekit-url] (by [Svelte][svelte-url]) and [Next.js][next-url] (by [Vercel][vercel-url]).   
 
-**Objectives**: fast, easy, convention over configuration, & batteries included. Overwhelming choices are bad versus providing a clear path forward.
+---   
+
 
 |                            Feature/Category |                              SvelteKit | Next.js                       |  Winner   | More Information                                                                                                                                                                             |
 | ------------------------------------------: | -------------------------------------: | :---------------------------- | :-------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

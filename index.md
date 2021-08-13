@@ -40,9 +40,10 @@
 |                             Form Components |                  [Felte][felte-url] 🟢 | 🟢 [Formik][formik-url]        |    --     | Felte offers a nearly-native HTML5 form experience. Or [Sveltik][sveltik-url] is a port of Formik for React. Can use Yup for validation.                                                     |
 |      SWR-like (Stale While Reload) fetching |    [svelte-query][svelte-query-url] 🟢 | 🟢 [SWR][swr-url]              |    --     | SWR is by Vercel. Easy fetch/isLoading/errors/caching.                                                                                                                                       |
 |     [Tailwind CSS][tailwind-url] compatible |                                     🟢 | 🟢                             |    --     | Easy via [svelte-add-tailwindcss][svelte-add-tailwind-url]. Next.js requires more steps, but [RFC][next-rfc-url] for `npx init tailwind`                                                     |
-|       [Headless UI][headless-url] available |                                     ⛔ | 🟡  WIP                        |  Next.js  | 🚧  Un-styled UI components (dropdown, slider, toggle, etc) from Tailwind creators.                                                                                                              |
-|                               Documentation |                                     👍 | 👍                             |    --     | Both are excellently documented.                                                                                                                                                                                            |
----  
+|       [Headless UI][headless-url] available |                                     ⛔ | 🟡  WIP                        |  Next.js  | 🚧  Un-styled UI components (dropdown, slider, toggle, etc) from Tailwind creators.                                                                                                           |
+|                               Documentation |                                     👍 | 👍                             |    --     | Both are excellently documented.                                                                                                                                                              |
+
+---
 
 ## Conclusion and Thoughts
 

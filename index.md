@@ -40,11 +40,14 @@
 |     [Tailwind CSS][tailwind-url] compatible |                                     🟢 | 🟢                             |    --     | Easy via [svelte-add-tailwindcss][svelte-add-tailwind-url]. Next.js requires more steps, but [RFC][next-rfc-url] for `npx init tailwind`                                                     |
 |       [Headless UI][headless-url] available |                                     🛑 | 🚧  WIP                        |  Next.js  | Un-styled UI components (dropdown, slider, toggle, etc) from Tailwind creators.                                                                                                              |
 |                               Documentation |                                     🔟 | 🔟                             |    --     |                                                                                                                                                                                              |
+
 ---
+
 🟡  = partial solution available
 🚧  = WIP/development/RFC
 
 ---
+
 > MIT 2021 © [Nicholas Berlette](https://github.com/nberlette). Forked from [jasongitmail's original](https://github.com/jasongitmail/svelte-vs-next).
 
 [svelte-url]: https://svelte.dev

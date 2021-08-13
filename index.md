@@ -43,7 +43,7 @@
 
 ---
 
-🟡  = partial solution available
+🟡  = partial solution available   
 🚧  = WIP/development/RFC
 
 ---

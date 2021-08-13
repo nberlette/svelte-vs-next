@@ -2,11 +2,11 @@
 
 **Objectives**: fast, easy, convention over configuration, & batteries included. Overwhelming choices &lt; providing a clear path forward.
 
-## Comparison of Major Features
-
-**Contenders**: [SvelteKit][sveltekit-url] (by [Svelte][svelte-url]) and [Next.js][next-url] (by [Vercel][vercel-url]).
+**Contenders**: [SvelteKit][sveltekit-url] (by [Svelte][svelte-url]) and [Next.js][next-url] (by [Vercel][vercel-url]).  
 
 ---
+
+## Comparison of Major Features
 
 |                            Feature/Category |                              SvelteKit | Next.js                       |  Winner   | More Information                                                                                                                                                                             |
 | ------------------------------------------: | -------------------------------------: | :---------------------------- | :-------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -21,8 +21,8 @@
 |       Auto code-splitting, per route (prod) |                                     🟢 | 🟢                             |    --     | I.e. Auto code splits JS & CSS per route & bundles appropriately.                                                                                                                            |
 | [HTTP2 push][http2push-url] JS/CSS\* (prod) |                                     ⛔ | ⛔                             | _Neither_ | I.e. Set initial page's HTML headers to push JS & CSS. Requires host support (and/or 'link preload' added to HTML head). \*_Chrome deprecated this 12/2020._                                 |
 |    Build adapters for host providers (prod) |                                     🟢 | ⛔                             | SvelteKit | SvelteKit provides easy portability. Next.js works best with Vercel.                                                                                                                         |
-|                      Kb size: `Hello World` |                         **0.52 Kb** 🟢 | ⚠️  ***204 Kb***               | SvelteKit | \*Mar 19 2021. [sapper-note-url]                                                                                                                                                             |
-|                       Kb size: `Real World` |                         **45.3 Kb** 🟢 | ⚠️  ***327 Kb***               | SvelteKit | \*Mar 13, 2021 [svelterealworld-url], [sapper-note-url]                                                                                                                                      |
+|                      Kb size: `Hello World` |                         **0.52 Kb** 🟢 | ⚠️  ***204 Kb***               | SvelteKit | \*Mar 19 2021. [Source][sapper-note-url]                                                                                                                                                             |
+|                       Kb size: `Real World` |                         **45.3 Kb** 🟢 | ⚠️  ***327 Kb***               | SvelteKit | \*Mar 13, 2021 [Read: Real World App][svelterealworld-url], ([source][sapper-note-url])                                                                                                                                     |
 |      Server Side Rendering (SSR), per route |                                     🟢 | 🟢                             |    --     | I.e. Server-side rendered (at run time).                                                                                                                                                     |
 |     Static Site Generation (SSG), per route |                                     🟢 | 🟢                             |    --     | I.e. Static (at build time).                                                                                                                                                                 |
 |      Incremental Rendering (SSG), per route |                                     ⛔ | 🟢                             |  Next.js  | I.e. Static 'on demand' in production--first req dynamic then cached.                                                                                                                        |
@@ -42,17 +42,6 @@
 |     [Tailwind CSS][tailwind-url] compatible |                                     🟢 | 🟢                             |    --     | Easy via [svelte-add-tailwindcss][svelte-add-tailwind-url]. Next.js requires more steps, but [RFC][next-rfc-url] for `npx init tailwind`                                                     |
 |       [Headless UI][headless-url] available |                                     ⛔ | 🟡  WIP                        |  Next.js  | 🚧  Un-styled UI components (dropdown, slider, toggle, etc) from Tailwind creators.                                                                                                              |
 |                               Documentation |                                     👍 | 👍                             |    --     | Both are excellently documented.                                                                                                                                                                                            |
-
----
-
-### Legend
-
-* ⚠️  = Important Info / Warning
-* 🟢  = Feature Available
-* 🟡  = 3rd-party / partially available
-* ⛔  = Feature Unavailable
-* 🚧  = Work in Progress or RFC  
-
 ---  
 
 ## Conclusion and Thoughts
@@ -62,6 +51,16 @@ Both of these frameworks bring a lot to the table, each in their own respective 
 In the React scene, Next.js and the development experience that [Vercel][vercel-url] provides are essentially unrivalled. They really are best-in-class, no doubt about that. But as we edge closer to the 10-year mark of React's existence, I must say that [Svelte][svelte-url] (and SvelteKit) are a refreshing change of pace. With it's built-in features (lookin' at you CSS animations) and familiar syntax, it just seems to pick up right where Vanilla JS fell short... without forcing us to learn a whole new style of coding.  
 
 I've been experimenting with both Svelte and Next.js **a lot** recently, and today I still have a lot of trouble picking one over the other 😬  
+
+---
+
+### Legend: Emoji & Symbol
+
+* ⚠️  = Important Info / Warning
+* 🟢  = Feature Available
+* 🟡  = 3rd-party / partially available
+* ⛔  = Feature Unavailable
+* 🚧  = Work in Progress or RFC  
 
 ---
 

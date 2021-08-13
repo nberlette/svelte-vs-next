@@ -1,6 +1,6 @@
 # SvelteKit vs. Next.js
 
-**Objectives**: fast, easy, convention over configuration, & batteries included. Overwhelming choices are bad versus providing a clear path forward.
+**Objectives**: fast, easy, convention over configuration, & batteries included. Overwhelming choices &lt; providing a clear path forward.
 
 ## Comparison of Major Features
 
@@ -42,12 +42,20 @@
 |      SWR-like (Stale While Reload) fetching |    [svelte-query][svelte-query-url] 🟢 | 🟢 [SWR][swr-url]              |    --     | SWR is by Vercel. Easy fetch/isLoading/errors/caching.                                                                                                                                       |
 |     [Tailwind CSS][tailwind-url] compatible |                                     🟢 | 🟢                             |    --     | Easy via [svelte-add-tailwindcss][svelte-add-tailwind-url]. Next.js requires more steps, but [RFC][next-rfc-url] for `npx init tailwind`                                                     |
 |       [Headless UI][headless-url] available |                                     🛑 | 🚧  WIP                        |  Next.js  | Un-styled UI components (dropdown, slider, toggle, etc) from Tailwind creators.                                                                                                              |
-|                               Documentation |                                     🔟 | 🔟                             |    --     |                                                                                                                                                                                              |
-
----
+|                               Documentation |                                     🔟 | 🔟                             |    --     |                                                                                                                                                                                              |   
+   
 
 🟡  = partial solution available   
 🚧  = WIP/development/RFC
+
+---   
+## Conclusion and Thoughts   
+
+Both of these frameworks bring a lot to the table, each in their own respective flavors. I'd say that rather than one being an out-and-out winner over the other, they're more along the lines of cordial competitors in similar fields. At the end of the day, the choice (as always) boils down to your development preferences, and project-specific requirements.  
+
+In the React scene, Next.js and the development experience that [Vercel][vercel-url] provides are essentially unrivalled. They really are best-in-class, no doubt about that. But as we edge closer to the 10-year mark of React's existence, I must say that [Svelte][svelte-url] (and SvelteKit) are a refreshing change of pace. With it's built-in features (lookin' at you CSS animations) and familiar syntax, it just seems to pick up right where Vanilla JS fell short... without forcing us to learn a whole new style of coding.  
+
+I've been experimenting with both Svelte and Next.js **a lot** recently, and today I still have a lot of trouble picking one over the other 😬  
 
 ---
 
